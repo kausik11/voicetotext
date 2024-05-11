@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 800px;
+  margin: 50px auto;
+}
+.container h1{
+  text-align: center;
+  line-height: 60px;
+  word-spacing: 10px;
+  font-size: 3em;
+}
+.container h2{
+  text-align: justify;
+  line-height: 30px;
+  font-size: 1.5em;
+  margin: 20px;
+  letter-spacing: 5px;
+}
+.container h2 span{
+  color: red;
+}
+.main-content{
+   min-width: 700px;
+   min-height: 500px; 
+   margin: 20px;
+   box-shadow: 10px 10px 29px 10px rgba(0,0,0,0.75);
+   position: relative;
+}
+.btn-style{
+  position: absolute;
+  top: 90%;
+  left: 5%;
+  display: flex;
+  min-width: 700px;
+  justify-content: space-around;
+  align-items: center;
+}
+.btn-style button{
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: aquamarine;
+  color: black;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+}
